@@ -239,7 +239,7 @@ int wmain(int argc, wchar_t* argv[])
     /* --------------------------------------------------------
      * 7. Chờ con thoát hẳn (đề phòng), lấy exit code.
      * -------------------------------------------------------- */
-    WaitForSingleObject(pi.hProcess, INFINITE);
+	WaitForSingleObject(pi.hProcess, INFINITE); // cho den khi con ket thuc, khong gioi han thoi gian
     QueryPerformanceCounter(&tEnd);
 
     DWORD exitCode = 0;
