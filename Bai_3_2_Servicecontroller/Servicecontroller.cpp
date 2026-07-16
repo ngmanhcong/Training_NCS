@@ -251,3 +251,9 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 }
+
+// cd /d D:\Work\NCS\exercise\Training\x64\Debug
+// Bai_3_2_ServiceController.exe list
+// Bai_3_2_ServiceController.exe status [Spooler]
+// Bai_3_2_ServiceController.exe stop [Spooler]
+// Bai_3_2_ServiceController.exe start [Spooler]
