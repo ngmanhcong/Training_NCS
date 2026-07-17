@@ -17,6 +17,7 @@ int main() {
     tmp  = địa chỉ heap mà con trỏ đang giữ
     *tmp = giá trị tại vùng heap đó
     &tmp = địa chỉ của biến con trỏ tmp trên stack
+
     */
 
     int* tmp1 = new int;
