@@ -1130,6 +1130,7 @@ int wmain(int argc, wchar_t* argv[])
     }
 
     // ---- 6-9. Cac directory con lai (loi o day khong lam dung toan bo chuong trinh) ----
+
     PrintExportDirectory(dataDirs, dirCount);
     PrintImportDirectory(dataDirs, dirCount);
     PrintResourceDirectory(dataDirs, dirCount);
