@@ -33,5 +33,8 @@
     <ClCompile Include="ReadFile.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="CreateHardLink.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
