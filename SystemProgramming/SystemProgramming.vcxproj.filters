@@ -21,5 +21,8 @@
     <ClCompile Include="CopyFile.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="MoveFile.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
