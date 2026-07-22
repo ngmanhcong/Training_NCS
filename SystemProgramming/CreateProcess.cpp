@@ -56,5 +56,6 @@ int main() {
 	(Đợi process kết thúc)
 		↓
 	CloseHandle(pi.hThread)
+
 	CloseHandle(pi.hProcess)
 */
