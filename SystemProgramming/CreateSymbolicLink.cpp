@@ -16,3 +16,5 @@ int main() {
 		cout << "CreateSymbolicLink Success" << endl;
 	}
 }
+
+// co the dung de tao file + folder

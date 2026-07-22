@@ -16,3 +16,5 @@ int main() {
 		cout << "CreateHardLink Success" << endl;
 	}
 }
+
+// chi duoc su dung de tao file, khong tao duoc folder
