@@ -24,9 +24,9 @@ int main() {
 	// Write to file
 	bool bWFile = WriteFile(
 		hFile, 
-		chBuffer, 
-		dwBytesToWritte, 
-		&dwBytesWritten, 
+		chBuffer,			// con tro -> vung nho chua du lieu can ghi
+		dwBytesToWritte,    // so byte can ghi
+		&dwBytesWritten,    // con tro -> so byte da ghi thuc su
 		NULL
 	);
 

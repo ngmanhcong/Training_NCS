@@ -3,7 +3,10 @@
 using namespace std;
 int main() {
 	bool diR1;
-	diR1 = CreateDirectory(L"D:\\ThuHuong\\ThuHuongcuoiManhCong", NULL);
+	diR1 = CreateDirectory(
+		L"D:\\ThuHuong\\ThuHuongcuoiManhCong", 
+		NULL
+	);
 	if (diR1 == FALSE) {
 		cout << "CreateDirectory Failed and Error No - " << GetLastError() << endl;
 	}
