@@ -54,5 +54,8 @@
     <ClCompile Include="CreateSemaphore.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="CreatePipe.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
